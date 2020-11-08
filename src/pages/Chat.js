@@ -135,14 +135,14 @@ export default class Chat extends Component {
                                 </a>
                             </li>
                             <li className="nav-item dropdown profile-user-dropdown d-inline-block d-lg-none">
-                                <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a className="nav-link dropdown-toggle" href="/chat" role="button" data-toggle="dropdown"  aria-expanded="false">
                                     <img src="assets/images/users/avatar-1.jpg" alt="" className="profile-user rounded-circle" />
                                 </a>
                                 <div className="dropdown-menu">
-                                    <a className="dropdown-item" href="#">Profile <i className="ri-profile-line float-right text-muted"></i></a>
-                                    <a className="dropdown-item" href="#">Setting <i className="ri-settings-3-line float-right text-muted"></i></a>
+                                    <a className="dropdown-item" href="/chat">Profile <i className="ri-profile-line float-right text-muted"></i></a>
+                                    <a className="dropdown-item" href="/chat">Setting <i className="ri-settings-3-line float-right text-muted"></i></a>
                                     <div className="dropdown-divider"></div>
-                                    <a className="dropdown-item" href="#">Log out <i className="ri-logout-circle-r-line float-right text-muted"></i></a>
+                                    <a className="dropdown-item" href="/chat">Log out <i className="ri-logout-circle-r-line float-right text-muted"></i></a>
                                 </div>
                             </li>
                         </ul>
@@ -151,20 +151,20 @@ export default class Chat extends Component {
                     <div className="flex-lg-column d-none d-lg-block">
                         <ul className="nav side-menu-nav justify-content-center">
                             <li className="nav-item">
-                                <a className="nav-link" id="light-dark" href="#" data-toggle="tooltip" data-trigger="hover" data-placement="right" title="Dark / Light Mode">
+                                <a className="nav-link" id="light-dark" href="/chat" data-toggle="tooltip" data-trigger="hover" data-placement="right" title="Dark / Light Mode">
                                     <i className="ri-sun-line theme-mode-icon"></i>
                                 </a>
                             </li>
 
                             <li className="nav-item btn-group dropup profile-user-dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a className="nav-link dropdown-toggle" href="/chat" role="button" data-toggle="dropdown"  aria-expanded="false">
                                     <img src="assets/images/users/avatar-1.jpg" alt="" className="profile-user rounded-circle" />
                                 </a>
                                 <div className="dropdown-menu">
-                                    <a className="dropdown-item" href="#">Profile <i className="ri-profile-line float-right text-muted"></i></a>
-                                    <a className="dropdown-item" href="#">Setting <i className="ri-settings-3-line float-right text-muted"></i></a>
+                                    <a className="dropdown-item" href="/chat">Profile <i className="ri-profile-line float-right text-muted"></i></a>
+                                    <a className="dropdown-item" href="/chat">Setting <i className="ri-settings-3-line float-right text-muted"></i></a>
                                     <div className="dropdown-divider"></div>
-                                    <a className="dropdown-item" href="#">Log out <i className="ri-logout-circle-r-line float-right text-muted"></i></a>
+                                    <a className="dropdown-item" href="/chat">Log out <i className="ri-logout-circle-r-line float-right text-muted"></i></a>
                                 </div>
                             </li>
                         </ul>
@@ -179,14 +179,14 @@ export default class Chat extends Component {
                                 <div className="px-4 pt-4">
                                     <div className="user-chat-nav float-right">
                                         <div className="dropdown">
-                                            <a href="#" className="font-size-18 text-muted dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <a href="/chat" className="font-size-18 text-muted dropdown-toggle" data-toggle="dropdown"  aria-expanded="false">
                                                 <i className="ri-more-2-fill"></i>
                                             </a>
                                             <div className="dropdown-menu dropdown-menu-right">
-                                                <a className="dropdown-item" href="#">Edit</a>
-                                                <a className="dropdown-item" href="#">Action</a>
+                                                <a className="dropdown-item" href="/chat">Edit</a>
+                                                <a className="dropdown-item" href="/chat">Action</a>
                                                 <div className="dropdown-divider"></div>
-                                                <a className="dropdown-item" href="#">Another action</a>
+                                                <a className="dropdown-item" href="/chat">Another action</a>
                                             </div>
                                         </div>
                                     </div>
@@ -278,19 +278,19 @@ export default class Chat extends Component {
                                                             <div className="ml-4">
                                                                 <ul className="list-inline mb-0 font-size-18">
                                                                     <li className="list-inline-item">
-                                                                        <a href="#" className="text-muted px-1">
+                                                                        <a href="/chat" className="text-muted px-1">
                                                                             <i className="ri-download-2-line"></i>
                                                                         </a>
                                                                     </li>
                                                                     <li className="list-inline-item dropdown">
-                                                                        <a className="dropdown-toggle text-muted px-1" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                        <a className="dropdown-toggle text-muted px-1" href="/chat" role="button" data-toggle="dropdown"  aria-expanded="false">
                                                                             <i className="ri-more-fill"></i>
                                                                         </a>
                                                                         <div className="dropdown-menu dropdown-menu-right">
-                                                                            <a className="dropdown-item" href="#">Action</a>
-                                                                            <a className="dropdown-item" href="#">Another action</a>
+                                                                            <a className="dropdown-item" href="/chat">Action</a>
+                                                                            <a className="dropdown-item" href="/chat">Another action</a>
                                                                             <div className="dropdown-divider"></div>
-                                                                            <a className="dropdown-item" href="#">Delete</a>
+                                                                            <a className="dropdown-item" href="/chat">Delete</a>
                                                                         </div>
                                                                     </li>
                                                                 </ul>
@@ -315,19 +315,19 @@ export default class Chat extends Component {
                                                             <div className="ml-4">
                                                                 <ul className="list-inline mb-0 font-size-18">
                                                                     <li className="list-inline-item">
-                                                                        <a href="#" className="text-muted px-1">
+                                                                        <a href="/chat" className="text-muted px-1">
                                                                             <i className="ri-download-2-line"></i>
                                                                         </a>
                                                                     </li>
                                                                     <li className="list-inline-item dropdown">
-                                                                        <a className="dropdown-toggle text-muted px-1" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                        <a className="dropdown-toggle text-muted px-1" href="/chat" role="button" data-toggle="dropdown"  aria-expanded="false">
                                                                             <i className="ri-more-fill"></i>
                                                                         </a>
                                                                         <div className="dropdown-menu dropdown-menu-right">
-                                                                            <a className="dropdown-item" href="#">Action</a>
-                                                                            <a className="dropdown-item" href="#">Another action</a>
+                                                                            <a className="dropdown-item" href="/chat">Action</a>
+                                                                            <a className="dropdown-item" href="/chat">Another action</a>
                                                                             <div className="dropdown-divider"></div>
-                                                                            <a className="dropdown-item" href="#">Delete</a>
+                                                                            <a className="dropdown-item" href="/chat">Delete</a>
                                                                         </div>
                                                                     </li>
                                                                 </ul>
@@ -352,19 +352,19 @@ export default class Chat extends Component {
                                                             <div className="ml-4">
                                                                 <ul className="list-inline mb-0 font-size-18">
                                                                     <li className="list-inline-item">
-                                                                        <a href="#" className="text-muted px-1">
+                                                                        <a href="/chat" className="text-muted px-1">
                                                                             <i className="ri-download-2-line"></i>
                                                                         </a>
                                                                     </li>
                                                                     <li className="list-inline-item dropdown">
-                                                                        <a className="dropdown-toggle text-muted px-1" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                        <a className="dropdown-toggle text-muted px-1" href="/chat" role="button" data-toggle="dropdown"  aria-expanded="false">
                                                                             <i className="ri-more-fill"></i>
                                                                         </a>
                                                                         <div className="dropdown-menu dropdown-menu-right">
-                                                                            <a className="dropdown-item" href="#">Action</a>
-                                                                            <a className="dropdown-item" href="#">Another action</a>
+                                                                            <a className="dropdown-item" href="/chat">Action</a>
+                                                                            <a className="dropdown-item" href="/chat">Another action</a>
                                                                             <div className="dropdown-divider"></div>
-                                                                            <a className="dropdown-item" href="#">Delete</a>
+                                                                            <a className="dropdown-item" href="/chat">Delete</a>
                                                                         </div>
                                                                     </li>
                                                                 </ul>
@@ -389,19 +389,19 @@ export default class Chat extends Component {
                                                             <div className="ml-4">
                                                                 <ul className="list-inline mb-0 font-size-18">
                                                                     <li className="list-inline-item">
-                                                                        <a href="#" className="text-muted px-1">
+                                                                        <a href="/chat" className="text-muted px-1">
                                                                             <i className="ri-download-2-line"></i>
                                                                         </a>
                                                                     </li>
                                                                     <li className="list-inline-item dropdown">
-                                                                        <a className="dropdown-toggle text-muted px-1" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                        <a className="dropdown-toggle text-muted px-1" href="/chat" role="button" data-toggle="dropdown"  aria-expanded="false">
                                                                             <i className="ri-more-fill"></i>
                                                                         </a>
                                                                         <div className="dropdown-menu dropdown-menu-right">
-                                                                            <a className="dropdown-item" href="#">Action</a>
-                                                                            <a className="dropdown-item" href="#">Another action</a>
+                                                                            <a className="dropdown-item" href="/chat">Action</a>
+                                                                            <a className="dropdown-item" href="/chat">Another action</a>
                                                                             <div className="dropdown-divider"></div>
-                                                                            <a className="dropdown-item" href="#">Delete</a>
+                                                                            <a className="dropdown-item" href="/chat">Delete</a>
                                                                         </div>
                                                                     </li>
                                                                 </ul>
@@ -439,7 +439,7 @@ export default class Chat extends Component {
 
                                     <div className="owl-carousel owl-theme" id="user-status-carousel">
                                         <div className="item">
-                                            <a href="#" className="user-status-box">
+                                            <a href="/chat" className="user-status-box">
                                                 <div className="avatar-xs mx-auto d-block chat-user-img online">
                                                     <img src="assets/images/users/avatar-2.jpg" alt="user-img" className="img-fluid rounded-circle" />
                                                     <span className="user-status"></span>
@@ -449,7 +449,7 @@ export default class Chat extends Component {
                                             </a>
                                         </div>
                                         <div className="item">
-                                            <a href="#" className="user-status-box">
+                                            <a href="/chat" className="user-status-box">
                                                 <div className="avatar-xs mx-auto d-block chat-user-img online">
                                                     <img src="assets/images/users/avatar-4.jpg" alt="user-img" className="img-fluid rounded-circle" />
                                                     <span className="user-status"></span>
@@ -460,7 +460,7 @@ export default class Chat extends Component {
                                         </div>
 
                                         <div className="item">
-                                            <a href="#" className="user-status-box">
+                                            <a href="/chat" className="user-status-box">
                                                 <div className="avatar-xs mx-auto d-block chat-user-img online">
                                                     <img src="assets/images/users/avatar-5.jpg" alt="user-img" className="img-fluid rounded-circle" />
                                                     <span className="user-status"></span>
@@ -471,7 +471,7 @@ export default class Chat extends Component {
                                         </div>
 
                                         <div className="item">
-                                            <a href="#" className="user-status-box">
+                                            <a href="/chat" className="user-status-box">
                                                 <div className="avatar-xs mx-auto d-block chat-user-img online">
                                                     <img src="assets/images/users/avatar-6.jpg" alt="user-img" className="img-fluid rounded-circle" />
                                                     <span className="user-status"></span>
@@ -482,7 +482,7 @@ export default class Chat extends Component {
                                         </div>
 
                                         <div className="item">
-                                            <a href="#" className="user-status-box">
+                                            <a href="/chat" className="user-status-box">
                                                 <div className="avatar-xs mx-auto d-block chat-user-img online">
                                                     <span className="avatar-title rounded-circle bg-soft-primary text-primary">
                                                         T
@@ -504,7 +504,7 @@ export default class Chat extends Component {
 
                                         <ul className="list-unstyled chat-list chat-user-list">
                                             <li>
-                                                <a href="#">
+                                                <a href="/chat">
                                                     <div className="media">
 
                                                         <div className="chat-user-img align-self-center mr-3">
@@ -525,7 +525,7 @@ export default class Chat extends Component {
                                             </li>
 
                                             <li className="unread">
-                                                <a href="#">
+                                                <a href="/chat">
                                                     <div className="media">
                                                         <div className="chat-user-img align-self-center mr-3">
                                                             <div className="avatar-xs">
@@ -548,7 +548,7 @@ export default class Chat extends Component {
                                             </li>
 
                                             <li>
-                                                <a href="#">
+                                                <a href="/chat">
                                                     <div className="media">
                                                         <div className="chat-user-img align-self-center mr-3">
                                                             <div className="avatar-xs">
@@ -567,7 +567,7 @@ export default class Chat extends Component {
                                             </li>
 
                                             <li className="active">
-                                                <a href="#">
+                                                <a href="/chat">
                                                     <div className="media">
                                                         <div className="chat-user-img align-self-center mr-3">
                                                             <div className="avatar-xs">
@@ -586,7 +586,7 @@ export default class Chat extends Component {
                                                 </a>
                                             </li>
                                             <li className="unread">
-                                                <a href="#">
+                                                <a href="/chat">
                                                     <div className="media">
                                                         <div className="chat-user-img align-self-center mr-3">
                                                             <div className="avatar-xs">
@@ -607,7 +607,7 @@ export default class Chat extends Component {
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <a href="/chat">
                                                     <div className="media">
                                                         <div className="chat-user-img align-self-center mr-3">
                                                             <div className="avatar-xs">
@@ -626,7 +626,7 @@ export default class Chat extends Component {
                                                 </a>
                                             </li>
                                             <li className="typing">
-                                                <a href="#">
+                                                <a href="/chat">
                                                     <div className="media">
                                                         <div className="chat-user-img align-self-center online mr-3">
                                                             <div className="avatar-xs">
@@ -650,7 +650,7 @@ export default class Chat extends Component {
                                             </li>
 
                                             <li>
-                                                <a href="#">
+                                                <a href="/chat">
                                                     <div className="media">
                                                         <div className="chat-user-img align-self-center online mr-3">
                                                             <div className="avatar-xs">
@@ -670,7 +670,7 @@ export default class Chat extends Component {
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <a href="/chat">
                                                     <div className="media">
                                                         <div className="chat-user-img align-self-center mr-3">
                                                             <div className="avatar-xs">
@@ -689,7 +689,7 @@ export default class Chat extends Component {
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <a href="/chat">
                                                     <div className="media">
                                                         <div className="chat-user-img align-self-center online mr-3">
                                                             <div className="avatar-xs">
@@ -709,7 +709,7 @@ export default class Chat extends Component {
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <a href="/chat">
                                                     <div className="media">
                                                         <div className="chat-user-img align-self-center mr-3">
                                                             <div className="avatar-xs">
@@ -728,7 +728,7 @@ export default class Chat extends Component {
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <a href="/chat">
                                                     <div className="media">
                                                         <div className="chat-user-img align-self-center online mr-3">
                                                             <div className="avatar-xs">
@@ -1005,7 +1005,7 @@ export default class Chat extends Component {
 
                                     <ul className="list-unstyled chat-list">
                                         <li>
-                                            <a href="#">
+                                            <a href="/chat">
                                                 <div className="media align-items-center">
                                                     <div className="chat-user-img mr-3">
                                                         <div className="avatar-xs">
@@ -1022,7 +1022,7 @@ export default class Chat extends Component {
                                         </li>
 
                                         <li>
-                                            <a href="#">
+                                            <a href="/chat">
                                                 <div className="media align-items-center">
                                                     <div className="chat-user-img mr-3">
                                                         <div className="avatar-xs">
@@ -1039,7 +1039,7 @@ export default class Chat extends Component {
                                         </li>
 
                                         <li>
-                                            <a href="#">
+                                            <a href="/chat">
                                                 <div className="media align-items-center">
                                                     <div className="chat-user-img mr-3">
                                                         <div className="avatar-xs">
@@ -1056,7 +1056,7 @@ export default class Chat extends Component {
                                         </li>
 
                                         <li>
-                                            <a href="#">
+                                            <a href="/chat">
                                                 <div className="media align-items-center">
                                                     <div className="chat-user-img mr-3">
                                                         <div className="avatar-xs">
@@ -1073,7 +1073,7 @@ export default class Chat extends Component {
                                         </li>
 
                                         <li>
-                                            <a href="#">
+                                            <a href="/chat">
                                                 <div className="media align-items-center">
                                                     <div className="chat-user-img mr-3">
                                                         <div className="avatar-xs">
@@ -1090,7 +1090,7 @@ export default class Chat extends Component {
                                         </li>
 
                                         <li>
-                                            <a href="#">
+                                            <a href="/chat">
                                                 <div className="media align-items-center">
                                                     <div className="chat-user-img mr-3">
                                                         <div className="avatar-xs">
@@ -1178,13 +1178,13 @@ export default class Chat extends Component {
                                                     </div>
 
                                                     <div className="dropdown">
-                                                        <a href="#" className="text-muted dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a href="/chat" className="text-muted dropdown-toggle" data-toggle="dropdown"  aria-expanded="false">
                                                             <i className="ri-more-2-fill"></i>
                                                         </a>
                                                         <div className="dropdown-menu dropdown-menu-right">
-                                                            <a className="dropdown-item" href="#">Share <i className="ri-share-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Block <i className="ri-forbid-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Share <i className="ri-share-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Block <i className="ri-forbid-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1197,13 +1197,13 @@ export default class Chat extends Component {
                                                     </div>
 
                                                     <div className="dropdown">
-                                                        <a href="#" className="text-muted dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a href="/chat" className="text-muted dropdown-toggle" data-toggle="dropdown"  aria-expanded="false">
                                                             <i className="ri-more-2-fill"></i>
                                                         </a>
                                                         <div className="dropdown-menu dropdown-menu-right">
-                                                            <a className="dropdown-item" href="#">Share <i className="ri-share-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Block <i className="ri-forbid-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Share <i className="ri-share-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Block <i className="ri-forbid-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1224,13 +1224,13 @@ export default class Chat extends Component {
                                                     </div>
 
                                                     <div className="dropdown">
-                                                        <a href="#" className="text-muted dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a href="/chat" className="text-muted dropdown-toggle" data-toggle="dropdown"  aria-expanded="false">
                                                             <i className="ri-more-2-fill"></i>
                                                         </a>
                                                         <div className="dropdown-menu dropdown-menu-right">
-                                                            <a className="dropdown-item" href="#">Share <i className="ri-share-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Block <i className="ri-forbid-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Share <i className="ri-share-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Block <i className="ri-forbid-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1251,13 +1251,13 @@ export default class Chat extends Component {
                                                     </div>
 
                                                     <div className="dropdown">
-                                                        <a href="#" className="text-muted dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a href="/chat" className="text-muted dropdown-toggle" data-toggle="dropdown"  aria-expanded="false">
                                                             <i className="ri-more-2-fill"></i>
                                                         </a>
                                                         <div className="dropdown-menu dropdown-menu-right">
-                                                            <a className="dropdown-item" href="#">Share <i className="ri-share-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Block <i className="ri-forbid-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Share <i className="ri-share-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Block <i className="ri-forbid-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1270,13 +1270,13 @@ export default class Chat extends Component {
                                                     </div>
 
                                                     <div className="dropdown">
-                                                        <a href="#" className="text-muted dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a href="/chat" className="text-muted dropdown-toggle" data-toggle="dropdown"  aria-expanded="false">
                                                             <i className="ri-more-2-fill"></i>
                                                         </a>
                                                         <div className="dropdown-menu dropdown-menu-right">
-                                                            <a className="dropdown-item" href="#">Share <i className="ri-share-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Block <i className="ri-forbid-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Share <i className="ri-share-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Block <i className="ri-forbid-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1299,13 +1299,13 @@ export default class Chat extends Component {
                                                     </div>
 
                                                     <div className="dropdown">
-                                                        <a href="#" className="text-muted dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a href="/chat" className="text-muted dropdown-toggle" data-toggle="dropdown"  aria-expanded="false">
                                                             <i className="ri-more-2-fill"></i>
                                                         </a>
                                                         <div className="dropdown-menu dropdown-menu-right">
-                                                            <a className="dropdown-item" href="#">Share <i className="ri-share-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Block <i className="ri-forbid-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Share <i className="ri-share-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Block <i className="ri-forbid-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1326,13 +1326,13 @@ export default class Chat extends Component {
                                                     </div>
 
                                                     <div className="dropdown">
-                                                        <a href="#" className="text-muted dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a href="/chat" className="text-muted dropdown-toggle" data-toggle="dropdown"  aria-expanded="false">
                                                             <i className="ri-more-2-fill"></i>
                                                         </a>
                                                         <div className="dropdown-menu dropdown-menu-right">
-                                                            <a className="dropdown-item" href="#">Share <i className="ri-share-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Block <i className="ri-forbid-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Share <i className="ri-share-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Block <i className="ri-forbid-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1345,13 +1345,13 @@ export default class Chat extends Component {
                                                     </div>
 
                                                     <div className="dropdown">
-                                                        <a href="#" className="text-muted dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a href="/chat" className="text-muted dropdown-toggle" data-toggle="dropdown"  aria-expanded="false">
                                                             <i className="ri-more-2-fill"></i>
                                                         </a>
                                                         <div className="dropdown-menu dropdown-menu-right">
-                                                            <a className="dropdown-item" href="#">Share <i className="ri-share-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Block <i className="ri-forbid-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Share <i className="ri-share-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Block <i className="ri-forbid-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1364,13 +1364,13 @@ export default class Chat extends Component {
                                                     </div>
 
                                                     <div className="dropdown">
-                                                        <a href="#" className="text-muted dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a href="/chat" className="text-muted dropdown-toggle" data-toggle="dropdown"  aria-expanded="false">
                                                             <i className="ri-more-2-fill"></i>
                                                         </a>
                                                         <div className="dropdown-menu dropdown-menu-right">
-                                                            <a className="dropdown-item" href="#">Share <i className="ri-share-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Block <i className="ri-forbid-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Share <i className="ri-share-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Block <i className="ri-forbid-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1391,13 +1391,13 @@ export default class Chat extends Component {
                                                     </div>
 
                                                     <div className="dropdown">
-                                                        <a href="#" className="text-muted dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a href="/chat" className="text-muted dropdown-toggle" data-toggle="dropdown"  aria-expanded="false">
                                                             <i className="ri-more-2-fill"></i>
                                                         </a>
                                                         <div className="dropdown-menu dropdown-menu-right">
-                                                            <a className="dropdown-item" href="#">Share <i className="ri-share-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Block <i className="ri-forbid-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Share <i className="ri-share-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Block <i className="ri-forbid-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1409,13 +1409,13 @@ export default class Chat extends Component {
                                                     </div>
 
                                                     <div className="dropdown">
-                                                        <a href="#" className="text-muted dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a href="/chat" className="text-muted dropdown-toggle" data-toggle="dropdown"  aria-expanded="false">
                                                             <i className="ri-more-2-fill"></i>
                                                         </a>
                                                         <div className="dropdown-menu dropdown-menu-right">
-                                                            <a className="dropdown-item" href="#">Share <i className="ri-share-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Block <i className="ri-forbid-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Share <i className="ri-share-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Block <i className="ri-forbid-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1428,13 +1428,13 @@ export default class Chat extends Component {
                                                     </div>
 
                                                     <div className="dropdown">
-                                                        <a href="#" className="text-muted dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a href="/chat" className="text-muted dropdown-toggle" data-toggle="dropdown"  aria-expanded="false">
                                                             <i className="ri-more-2-fill"></i>
                                                         </a>
                                                         <div className="dropdown-menu dropdown-menu-right">
-                                                            <a className="dropdown-item" href="#">Share <i className="ri-share-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Block <i className="ri-forbid-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Share <i className="ri-share-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Block <i className="ri-forbid-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1456,13 +1456,13 @@ export default class Chat extends Component {
                                                     </div>
 
                                                     <div className="dropdown">
-                                                        <a href="#" className="text-muted dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a href="/chat" className="text-muted dropdown-toggle" data-toggle="dropdown"  aria-expanded="false">
                                                             <i className="ri-more-2-fill"></i>
                                                         </a>
                                                         <div className="dropdown-menu dropdown-menu-right">
-                                                            <a className="dropdown-item" href="#">Share <i className="ri-share-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Block <i className="ri-forbid-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Share <i className="ri-share-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Block <i className="ri-forbid-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1484,13 +1484,13 @@ export default class Chat extends Component {
                                                     </div>
 
                                                     <div className="dropdown">
-                                                        <a href="#" className="text-muted dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a href="/chat" className="text-muted dropdown-toggle" data-toggle="dropdown"  aria-expanded="false">
                                                             <i className="ri-more-2-fill"></i>
                                                         </a>
                                                         <div className="dropdown-menu dropdown-menu-right">
-                                                            <a className="dropdown-item" href="#">Share <i className="ri-share-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Block <i className="ri-forbid-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Share <i className="ri-share-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Block <i className="ri-forbid-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1502,13 +1502,13 @@ export default class Chat extends Component {
                                                     </div>
 
                                                     <div className="dropdown">
-                                                        <a href="#" className="text-muted dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a href="/chat" className="text-muted dropdown-toggle" data-toggle="dropdown"  aria-expanded="false">
                                                             <i className="ri-more-2-fill"></i>
                                                         </a>
                                                         <div className="dropdown-menu dropdown-menu-right">
-                                                            <a className="dropdown-item" href="#">Share <i className="ri-share-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Block <i className="ri-forbid-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Share <i className="ri-share-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Block <i className="ri-forbid-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1530,13 +1530,13 @@ export default class Chat extends Component {
                                                     </div>
 
                                                     <div className="dropdown">
-                                                        <a href="#" className="text-muted dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a href="/chat" className="text-muted dropdown-toggle" data-toggle="dropdown"  aria-expanded="false">
                                                             <i className="ri-more-2-fill"></i>
                                                         </a>
                                                         <div className="dropdown-menu dropdown-menu-right">
-                                                            <a className="dropdown-item" href="#">Share <i className="ri-share-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Block <i className="ri-forbid-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Share <i className="ri-share-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Block <i className="ri-forbid-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1558,13 +1558,13 @@ export default class Chat extends Component {
                                                     </div>
 
                                                     <div className="dropdown">
-                                                        <a href="#" className="text-muted dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a href="/chat" className="text-muted dropdown-toggle" data-toggle="dropdown"  aria-expanded="false">
                                                             <i className="ri-more-2-fill"></i>
                                                         </a>
                                                         <div className="dropdown-menu dropdown-menu-right">
-                                                            <a className="dropdown-item" href="#">Share <i className="ri-share-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Block <i className="ri-forbid-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Share <i className="ri-share-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Block <i className="ri-forbid-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1576,13 +1576,13 @@ export default class Chat extends Component {
                                                     </div>
 
                                                     <div className="dropdown">
-                                                        <a href="#" className="text-muted dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a href="/chat" className="text-muted dropdown-toggle" data-toggle="dropdown"  aria-expanded="false">
                                                             <i className="ri-more-2-fill"></i>
                                                         </a>
                                                         <div className="dropdown-menu dropdown-menu-right">
-                                                            <a className="dropdown-item" href="#">Share <i className="ri-share-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Block <i className="ri-forbid-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Share <i className="ri-share-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Block <i className="ri-forbid-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1594,13 +1594,13 @@ export default class Chat extends Component {
                                                     </div>
 
                                                     <div className="dropdown">
-                                                        <a href="#" className="text-muted dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a href="/chat" className="text-muted dropdown-toggle" data-toggle="dropdown"  aria-expanded="false">
                                                             <i className="ri-more-2-fill"></i>
                                                         </a>
                                                         <div className="dropdown-menu dropdown-menu-right">
-                                                            <a className="dropdown-item" href="#">Share <i className="ri-share-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Block <i className="ri-forbid-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Share <i className="ri-share-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Block <i className="ri-forbid-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Remove <i className="ri-delete-bin-line float-right text-muted"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1628,13 +1628,13 @@ export default class Chat extends Component {
 
                                     <h5 className="font-size-16 mb-1 text-truncate">Patricia Smith</h5>
                                     <div className="dropdown d-inline-block mb-1">
-                                        <a className="text-muted dropdown-toggle pb-1 d-block" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <a className="text-muted dropdown-toggle pb-1 d-block" href="/chat" role="button" data-toggle="dropdown"  aria-expanded="false">
                                             Available <i className="mdi mdi-chevron-down"></i>
                                         </a>
 
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#">Available</a>
-                                            <a className="dropdown-item" href="#">Busy</a>
+                                            <a className="dropdown-item" href="/chat">Available</a>
+                                            <a className="dropdown-item" href="/chat">Busy</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1704,13 +1704,13 @@ export default class Chat extends Component {
 
                                                             </div>
                                                             <div className="dropdown ml-2">
-                                                                <button className="btn btn-light btn-sm dropdown-toggle w-sm" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                <button className="btn btn-light btn-sm dropdown-toggle w-sm" type="button" data-toggle="dropdown"  aria-expanded="false">
                                                                     Everyone <i className="mdi mdi-chevron-down"></i>
                                                                 </button>
                                                                 <div className="dropdown-menu dropdown-menu-right">
-                                                                    <a className="dropdown-item" href="#">Everyone</a>
-                                                                    <a className="dropdown-item" href="#">selected</a>
-                                                                    <a className="dropdown-item" href="#">Nobody</a>
+                                                                    <a className="dropdown-item" href="/chat">Everyone</a>
+                                                                    <a className="dropdown-item" href="/chat">selected</a>
+                                                                    <a className="dropdown-item" href="/chat">Nobody</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1737,13 +1737,13 @@ export default class Chat extends Component {
 
                                                             </div>
                                                             <div className="dropdown ml-2">
-                                                                <button className="btn btn-light btn-sm dropdown-toggle w-sm" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                <button className="btn btn-light btn-sm dropdown-toggle w-sm" type="button" data-toggle="dropdown"  aria-expanded="false">
                                                                     Everyone <i className="mdi mdi-chevron-down"></i>
                                                                 </button>
                                                                 <div className="dropdown-menu dropdown-menu-right">
-                                                                    <a className="dropdown-item" href="#">Everyone</a>
-                                                                    <a className="dropdown-item" href="#">selected</a>
-                                                                    <a className="dropdown-item" href="#">Nobody</a>
+                                                                    <a className="dropdown-item" href="/chat">Everyone</a>
+                                                                    <a className="dropdown-item" href="/chat">selected</a>
+                                                                    <a className="dropdown-item" href="/chat">Nobody</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1771,13 +1771,13 @@ export default class Chat extends Component {
 
                                                             </div>
                                                             <div className="dropdown ml-2">
-                                                                <button className="btn btn-light btn-sm dropdown-toggle w-sm" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                <button className="btn btn-light btn-sm dropdown-toggle w-sm" type="button" data-toggle="dropdown"  aria-expanded="false">
                                                                     Everyone <i className="mdi mdi-chevron-down"></i>
                                                                 </button>
                                                                 <div className="dropdown-menu dropdown-menu-right">
-                                                                    <a className="dropdown-item" href="#">Everyone</a>
-                                                                    <a className="dropdown-item" href="#">selected</a>
-                                                                    <a className="dropdown-item" href="#">Nobody</a>
+                                                                    <a className="dropdown-item" href="/chat">Everyone</a>
+                                                                    <a className="dropdown-item" href="/chat">selected</a>
+                                                                    <a className="dropdown-item" href="/chat">Nobody</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1837,13 +1837,13 @@ export default class Chat extends Component {
 
                                                     <div>
                                                         <div className="py-3">
-                                                            <h5 className="font-size-13 mb-0"><a href="#" className="text-body d-block">FAQs</a></h5>
+                                                            <h5 className="font-size-13 mb-0"><a href="/chat" className="text-body d-block">FAQs</a></h5>
                                                         </div>
                                                         <div className="py-3 border-top">
-                                                            <h5 className="font-size-13 mb-0"><a href="#" className="text-body d-block">Contact</a></h5>
+                                                            <h5 className="font-size-13 mb-0"><a href="/chat" className="text-body d-block">Contact</a></h5>
                                                         </div>
                                                         <div className="py-3 border-top">
-                                                            <h5 className="font-size-13 mb-0"><a href="#" className="text-body d-block">Terms & Privacy policy</a></h5>
+                                                            <h5 className="font-size-13 mb-0"><a href="/chat" className="text-body d-block">Terms & Privacy policy</a></h5>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1865,13 +1865,13 @@ export default class Chat extends Component {
                                     <div className="col-sm-4 col-8">
                                         <div className="media align-items-center">
                                             <div className="d-block d-lg-none mr-2">
-                                                <a href="#" className="user-chat-remove text-muted font-size-16 p-2"><i className="ri-arrow-left-s-line"></i></a>
+                                                <a href="/chat" className="user-chat-remove text-muted font-size-16 p-2"><i className="ri-arrow-left-s-line"></i></a>
                                             </div>
                                             <div className="mr-3">
                                                 <img src="assets/images/users/avatar-4.jpg" className="rounded-circle avatar-xs" alt="" />
                                             </div>
                                             <div className="media-body overflow-hidden">
-                                                <h5 className="font-size-16 mb-0 text-truncate"><a href="#" className="text-reset user-profile-show">Broadcast</a> <i className="ri-record-circle-fill font-size-10 text-success d-inline-block ml-1"></i></h5>
+                                                <h5 className="font-size-16 mb-0 text-truncate"><a href="/chat" className="text-reset user-profile-show">Broadcast</a> <i className="ri-record-circle-fill font-size-10 text-success d-inline-block ml-1"></i></h5>
                                             </div>
                                         </div>
                                     </div>
@@ -1880,7 +1880,7 @@ export default class Chat extends Component {
 
                                             <li className="list-inline-item">
                                                 <div className="dropdown">
-                                                    <button className="btn nav-btn dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <button className="btn nav-btn dropdown-toggle" type="button" data-toggle="dropdown"  aria-expanded="false">
                                                         <i className="ri-search-line"></i>
                                                     </button>
                                                     <div className="dropdown-menu p-0 dropdown-menu-right dropdown-menu-md">
@@ -1899,14 +1899,14 @@ export default class Chat extends Component {
 
                                             <li className="list-inline-item">
                                                 <div className="dropdown">
-                                                    <button className="btn nav-btn dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <button className="btn nav-btn dropdown-toggle" type="button" data-toggle="dropdown"  aria-expanded="false">
                                                         <i className="ri-more-fill"></i>
                                                     </button>
                                                     <div className="dropdown-menu dropdown-menu-right">
-                                                        <a className="dropdown-item d-block d-lg-none user-profile-show" href="#">View profile <i className="ri-user-2-line float-right text-muted"></i></a>
-                                                        <a className="dropdown-item" href="#">Archive <i className="ri-archive-line float-right text-muted"></i></a>
-                                                        <a className="dropdown-item" href="#">Muted <i className="ri-volume-mute-line float-right text-muted"></i></a>
-                                                        <a className="dropdown-item" href="#">Delete <i className="ri-delete-bin-line float-right text-muted"></i></a>
+                                                        <a className="dropdown-item d-block d-lg-none user-profile-show" href="/chat">View profile <i className="ri-user-2-line float-right text-muted"></i></a>
+                                                        <a className="dropdown-item" href="/chat">Archive <i className="ri-archive-line float-right text-muted"></i></a>
+                                                        <a className="dropdown-item" href="/chat">Muted <i className="ri-volume-mute-line float-right text-muted"></i></a>
+                                                        <a className="dropdown-item" href="/chat">Delete <i className="ri-delete-bin-line float-right text-muted"></i></a>
                                                     </div>
                                                 </div>
                                             </li>
@@ -1929,14 +1929,14 @@ export default class Chat extends Component {
                                                     <p className="chat-time mb-0"><i className="ri-time-line align-middle"></i> <span className="align-middle">10:00</span></p>
                                                 </div>
                                                 <div className="dropdown align-self-start">
-                                                    <a className="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <a className="dropdown-toggle" href="/chat" role="button" data-toggle="dropdown"  aria-expanded="false">
                                                         <i className="ri-more-2-fill"></i>
                                                     </a>
                                                     <div className="dropdown-menu">
-                                                        <a className="dropdown-item" href="#">Copy <i className="ri-file-copy-line float-right text-muted"></i></a>
-                                                        <a className="dropdown-item" href="#">Save <i className="ri-save-line float-right text-muted"></i></a>
-                                                        <a className="dropdown-item" href="#">Forward <i className="ri-chat-forward-line float-right text-muted"></i></a>
-                                                        <a className="dropdown-item" href="#">Delete <i className="ri-delete-bin-line float-right text-muted"></i></a>
+                                                        <a className="dropdown-item" href="/chat">Copy <i className="ri-file-copy-line float-right text-muted"></i></a>
+                                                        <a className="dropdown-item" href="/chat">Save <i className="ri-save-line float-right text-muted"></i></a>
+                                                        <a className="dropdown-item" href="/chat">Forward <i className="ri-chat-forward-line float-right text-muted"></i></a>
+                                                        <a className="dropdown-item" href="/chat">Delete <i className="ri-delete-bin-line float-right text-muted"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1961,14 +1961,14 @@ export default class Chat extends Component {
                                                 </div>
                                                     
                                                 <div className="dropdown align-self-start">
-                                                    <a className="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <a className="dropdown-toggle" href="/chat" role="button" data-toggle="dropdown"  aria-expanded="false">
                                                         <i className="ri-more-2-fill"></i>
                                                     </a>
                                                     <div className="dropdown-menu">
-                                                        <a className="dropdown-item" href="#">Copy <i className="ri-file-copy-line float-right text-muted"></i></a>
-                                                        <a className="dropdown-item" href="#">Save <i className="ri-save-line float-right text-muted"></i></a>
-                                                        <a className="dropdown-item" href="#">Forward <i className="ri-chat-forward-line float-right text-muted"></i></a>
-                                                        <a className="dropdown-item" href="#">Delete <i className="ri-delete-bin-line float-right text-muted"></i></a>
+                                                        <a className="dropdown-item" href="/chat">Copy <i className="ri-file-copy-line float-right text-muted"></i></a>
+                                                        <a className="dropdown-item" href="/chat">Save <i className="ri-save-line float-right text-muted"></i></a>
+                                                        <a className="dropdown-item" href="/chat">Forward <i className="ri-chat-forward-line float-right text-muted"></i></a>
+                                                        <a className="dropdown-item" href="/chat">Delete <i className="ri-delete-bin-line float-right text-muted"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1999,14 +1999,14 @@ export default class Chat extends Component {
                                                     <p className="chat-time mb-0"><i className="ri-time-line align-middle"></i> <span className="align-middle">10:05</span></p>
                                                 </div>
                                                 <div className="dropdown align-self-start">
-                                                    <a className="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <a className="dropdown-toggle" href="/chat" role="button" data-toggle="dropdown"  aria-expanded="false">
                                                         <i className="ri-more-2-fill"></i>
                                                     </a>
                                                     <div className="dropdown-menu">
-                                                        <a className="dropdown-item" href="#">Copy <i className="ri-file-copy-line float-right text-muted"></i></a>
-                                                        <a className="dropdown-item" href="#">Save <i className="ri-save-line float-right text-muted"></i></a>
-                                                        <a className="dropdown-item" href="#">Forward <i className="ri-chat-forward-line float-right text-muted"></i></a>
-                                                        <a className="dropdown-item" href="#">Delete <i className="ri-delete-bin-line float-right text-muted"></i></a>
+                                                        <a className="dropdown-item" href="/chat">Copy <i className="ri-file-copy-line float-right text-muted"></i></a>
+                                                        <a className="dropdown-item" href="/chat">Save <i className="ri-save-line float-right text-muted"></i></a>
+                                                        <a className="dropdown-item" href="/chat">Forward <i className="ri-chat-forward-line float-right text-muted"></i></a>
+                                                        <a className="dropdown-item" href="/chat">Delete <i className="ri-delete-bin-line float-right text-muted"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2019,14 +2019,14 @@ export default class Chat extends Component {
                                                     <p className="chat-time mb-0"><i className="ri-time-line align-middle"></i> <span className="align-middle">10:05</span></p>
                                                 </div>
                                                 <div className="dropdown align-self-start">
-                                                    <a className="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <a className="dropdown-toggle" href="/chat" role="button" data-toggle="dropdown"  aria-expanded="false">
                                                         <i className="ri-more-2-fill"></i>
                                                     </a>
                                                     <div className="dropdown-menu">
-                                                        <a className="dropdown-item" href="#">Copy <i className="ri-file-copy-line float-right text-muted"></i></a>
-                                                        <a className="dropdown-item" href="#">Save <i className="ri-save-line float-right text-muted"></i></a>
-                                                        <a className="dropdown-item" href="#">Forward <i className="ri-chat-forward-line float-right text-muted"></i></a>
-                                                        <a className="dropdown-item" href="#">Delete <i className="ri-delete-bin-line float-right text-muted"></i></a>
+                                                        <a className="dropdown-item" href="/chat">Copy <i className="ri-file-copy-line float-right text-muted"></i></a>
+                                                        <a className="dropdown-item" href="/chat">Save <i className="ri-save-line float-right text-muted"></i></a>
+                                                        <a className="dropdown-item" href="/chat">Forward <i className="ri-chat-forward-line float-right text-muted"></i></a>
+                                                        <a className="dropdown-item" href="/chat">Delete <i className="ri-delete-bin-line float-right text-muted"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2052,14 +2052,14 @@ export default class Chat extends Component {
                                                     <p className="chat-time mb-0"><i className="ri-time-line align-middle"></i> <span className="align-middle">10:06</span></p>
                                                 </div>
                                                 <div className="dropdown align-self-start">
-                                                    <a className="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <a className="dropdown-toggle" href="/chat" role="button" data-toggle="dropdown"  aria-expanded="false">
                                                         <i className="ri-more-2-fill"></i>
                                                     </a>
                                                     <div className="dropdown-menu">
-                                                        <a className="dropdown-item" href="#">Copy <i className="ri-file-copy-line float-right text-muted"></i></a>
-                                                        <a className="dropdown-item" href="#">Save <i className="ri-save-line float-right text-muted"></i></a>
-                                                        <a className="dropdown-item" href="#">Forward <i className="ri-chat-forward-line float-right text-muted"></i></a>
-                                                        <a className="dropdown-item" href="#">Delete <i className="ri-delete-bin-line float-right text-muted"></i></a>
+                                                        <a className="dropdown-item" href="/chat">Copy <i className="ri-file-copy-line float-right text-muted"></i></a>
+                                                        <a className="dropdown-item" href="/chat">Save <i className="ri-save-line float-right text-muted"></i></a>
+                                                        <a className="dropdown-item" href="/chat">Forward <i className="ri-chat-forward-line float-right text-muted"></i></a>
+                                                        <a className="dropdown-item" href="/chat">Delete <i className="ri-delete-bin-line float-right text-muted"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2090,19 +2090,19 @@ export default class Chat extends Component {
                                                             <div className="message-img-link">
                                                                 <ul className="list-inline mb-0">
                                                                     <li className="list-inline-item">
-                                                                        <a href="#">
+                                                                        <a href="/chat">
                                                                             <i className="ri-download-2-line"></i>
                                                                         </a>
                                                                     </li>
                                                                     <li className="list-inline-item dropdown">
-                                                                        <a className="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                        <a className="dropdown-toggle" href="/chat" role="button" data-toggle="dropdown"  aria-expanded="false">
                                                                             <i className="ri-more-fill"></i>
                                                                         </a>
                                                                         <div className="dropdown-menu">
-                                                                            <a className="dropdown-item" href="#">Copy <i className="ri-file-copy-line float-right text-muted"></i></a>
-                                                                            <a className="dropdown-item" href="#">Save <i className="ri-save-line float-right text-muted"></i></a>
-                                                                            <a className="dropdown-item" href="#">Forward <i className="ri-chat-forward-line float-right text-muted"></i></a>
-                                                                            <a className="dropdown-item" href="#">Delete <i className="ri-delete-bin-line float-right text-muted"></i></a>
+                                                                            <a className="dropdown-item" href="/chat">Copy <i className="ri-file-copy-line float-right text-muted"></i></a>
+                                                                            <a className="dropdown-item" href="/chat">Save <i className="ri-save-line float-right text-muted"></i></a>
+                                                                            <a className="dropdown-item" href="/chat">Forward <i className="ri-chat-forward-line float-right text-muted"></i></a>
+                                                                            <a className="dropdown-item" href="/chat">Delete <i className="ri-delete-bin-line float-right text-muted"></i></a>
                                                                         </div>
                                                                     </li>
                                                                 </ul>
@@ -2118,19 +2118,19 @@ export default class Chat extends Component {
                                                             <div className="message-img-link">
                                                                 <ul className="list-inline mb-0">
                                                                     <li className="list-inline-item">
-                                                                        <a href="#">
+                                                                        <a href="/chat">
                                                                             <i className="ri-download-2-line"></i>
                                                                         </a>
                                                                     </li>
                                                                     <li className="list-inline-item dropdown">
-                                                                        <a className="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                        <a className="dropdown-toggle" href="/chat" role="button" data-toggle="dropdown"  aria-expanded="false">
                                                                             <i className="ri-more-fill"></i>
                                                                         </a>
                                                                         <div className="dropdown-menu">
-                                                                            <a className="dropdown-item" href="#">Copy <i className="ri-file-copy-line float-right text-muted"></i></a>
-                                                                            <a className="dropdown-item" href="#">Save <i className="ri-save-line float-right text-muted"></i></a>
-                                                                            <a className="dropdown-item" href="#">Forward <i className="ri-chat-forward-line float-right text-muted"></i></a>
-                                                                            <a className="dropdown-item" href="#">Delete <i className="ri-delete-bin-line float-right text-muted"></i></a>
+                                                                            <a className="dropdown-item" href="/chat">Copy <i className="ri-file-copy-line float-right text-muted"></i></a>
+                                                                            <a className="dropdown-item" href="/chat">Save <i className="ri-save-line float-right text-muted"></i></a>
+                                                                            <a className="dropdown-item" href="/chat">Forward <i className="ri-chat-forward-line float-right text-muted"></i></a>
+                                                                            <a className="dropdown-item" href="/chat">Delete <i className="ri-delete-bin-line float-right text-muted"></i></a>
                                                                         </div>
                                                                     </li>
                                                                 </ul>
@@ -2141,14 +2141,14 @@ export default class Chat extends Component {
                                                 </div>
                                                     
                                                 <div className="dropdown align-self-start">
-                                                    <a className="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <a className="dropdown-toggle" href="/chat" role="button" data-toggle="dropdown"  aria-expanded="false">
                                                         <i className="ri-more-2-fill"></i>
                                                     </a>
                                                     <div className="dropdown-menu">
-                                                        <a className="dropdown-item" href="#">Copy <i className="ri-file-copy-line float-right text-muted"></i></a>
-                                                        <a className="dropdown-item" href="#">Save <i className="ri-save-line float-right text-muted"></i></a>
-                                                        <a className="dropdown-item" href="#">Forward <i className="ri-chat-forward-line float-right text-muted"></i></a>
-                                                        <a className="dropdown-item" href="#">Delete <i className="ri-delete-bin-line float-right text-muted"></i></a>
+                                                        <a className="dropdown-item" href="/chat">Copy <i className="ri-file-copy-line float-right text-muted"></i></a>
+                                                        <a className="dropdown-item" href="/chat">Save <i className="ri-save-line float-right text-muted"></i></a>
+                                                        <a className="dropdown-item" href="/chat">Forward <i className="ri-chat-forward-line float-right text-muted"></i></a>
+                                                        <a className="dropdown-item" href="/chat">Delete <i className="ri-delete-bin-line float-right text-muted"></i></a>
                                                     </div>
                                                 </div>
                                                 
@@ -2187,17 +2187,17 @@ export default class Chat extends Component {
                                                             <div className="ml-4">
                                                                 <ul className="list-inline mb-0 font-size-20">
                                                                     <li className="list-inline-item">
-                                                                        <a href="#" className="text-muted">
+                                                                        <a href="/chat" className="text-muted">
                                                                             <i className="ri-download-2-line"></i>
                                                                         </a>
                                                                     </li>
                                                                     <li className="list-inline-item dropdown">
-                                                                        <a className="dropdown-toggle text-muted" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                        <a className="dropdown-toggle text-muted" href="/chat" role="button" data-toggle="dropdown"  aria-expanded="false">
                                                                             <i className="ri-more-fill"></i>
                                                                         </a>
                                                                         <div className="dropdown-menu dropdown-menu-right">
-                                                                            <a className="dropdown-item" href="#">Share <i className="ri-share-line float-right text-muted"></i></a>
-                                                                            <a className="dropdown-item" href="#">Delete <i className="ri-delete-bin-line float-right text-muted"></i></a>
+                                                                            <a className="dropdown-item" href="/chat">Share <i className="ri-share-line float-right text-muted"></i></a>
+                                                                            <a className="dropdown-item" href="/chat">Delete <i className="ri-delete-bin-line float-right text-muted"></i></a>
                                                                         </div>
                                                                     </li>
                                                                 </ul>
@@ -2209,14 +2209,14 @@ export default class Chat extends Component {
                                                 </div>
                                                     
                                                 <div className="dropdown align-self-start">
-                                                    <a className="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <a className="dropdown-toggle" href="/chat" role="button" data-toggle="dropdown"  aria-expanded="false">
                                                         <i className="ri-more-2-fill"></i>
                                                     </a>
                                                     <div className="dropdown-menu">
-                                                        <a className="dropdown-item" href="#">Copy <i className="ri-file-copy-line float-right text-muted"></i></a>
-                                                        <a className="dropdown-item" href="#">Save <i className="ri-save-line float-right text-muted"></i></a>
-                                                        <a className="dropdown-item" href="#">Forward <i className="ri-chat-forward-line float-right text-muted"></i></a>
-                                                        <a className="dropdown-item" href="#">Delete <i className="ri-delete-bin-line float-right text-muted"></i></a>
+                                                        <a className="dropdown-item" href="/chat">Copy <i className="ri-file-copy-line float-right text-muted"></i></a>
+                                                        <a className="dropdown-item" href="/chat">Save <i className="ri-save-line float-right text-muted"></i></a>
+                                                        <a className="dropdown-item" href="/chat">Forward <i className="ri-chat-forward-line float-right text-muted"></i></a>
+                                                        <a className="dropdown-item" href="/chat">Delete <i className="ri-delete-bin-line float-right text-muted"></i></a>
                                                     </div>
                                                 </div>
                                                 
@@ -2272,14 +2272,14 @@ export default class Chat extends Component {
                                                         <p className="chat-time mb-0"><i className="ri-time-line align-middle"></i> <span className="align-middle">{this.formatTime(chat.timestamp)}</span></p>
                                                     </div>
                                                     <div className="dropdown align-self-start">
-                                                        <a className="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a className="dropdown-toggle" href="/chat" role="button" data-toggle="dropdown"  aria-expanded="false">
                                                             <i className="ri-more-2-fill"></i>
                                                         </a>
                                                         <div className="dropdown-menu">
-                                                            <a className="dropdown-item" href="#">Copy <i className="ri-file-copy-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Save <i className="ri-save-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Forward <i className="ri-chat-forward-line float-right text-muted"></i></a>
-                                                            <a className="dropdown-item" href="#">Delete <i className="ri-delete-bin-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Copy <i className="ri-file-copy-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Save <i className="ri-save-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Forward <i className="ri-chat-forward-line float-right text-muted"></i></a>
+                                                            <a className="dropdown-item" href="/chat">Delete <i className="ri-delete-bin-line float-right text-muted"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2426,19 +2426,19 @@ export default class Chat extends Component {
                                                         <div className="ml-4">
                                                             <ul className="list-inline mb-0 font-size-18">
                                                                 <li className="list-inline-item">
-                                                                    <a href="#" className="text-muted px-1">
+                                                                    <a href="/chat" className="text-muted px-1">
                                                                         <i className="ri-download-2-line"></i>
                                                                     </a>
                                                                 </li>
                                                                 <li className="list-inline-item dropdown">
-                                                                    <a className="dropdown-toggle text-muted px-1" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                    <a className="dropdown-toggle text-muted px-1" href="/chat" role="button" data-toggle="dropdown"  aria-expanded="false">
                                                                         <i className="ri-more-fill"></i>
                                                                     </a>
                                                                     <div className="dropdown-menu dropdown-menu-right">
-                                                                        <a className="dropdown-item" href="#">Action</a>
-                                                                        <a className="dropdown-item" href="#">Another action</a>
+                                                                        <a className="dropdown-item" href="/chat">Action</a>
+                                                                        <a className="dropdown-item" href="/chat">Another action</a>
                                                                         <div className="dropdown-divider"></div>
-                                                                        <a className="dropdown-item" href="#">Delete</a>
+                                                                        <a className="dropdown-item" href="/chat">Delete</a>
                                                                     </div>
                                                                 </li>
                                                             </ul>
@@ -2463,19 +2463,19 @@ export default class Chat extends Component {
                                                         <div className="ml-4">
                                                             <ul className="list-inline mb-0 font-size-18">
                                                                 <li className="list-inline-item">
-                                                                    <a href="#" className="text-muted px-1">
+                                                                    <a href="/chat" className="text-muted px-1">
                                                                         <i className="ri-download-2-line"></i>
                                                                     </a>
                                                                 </li>
                                                                 <li className="list-inline-item dropdown">
-                                                                    <a className="dropdown-toggle text-muted px-1" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                    <a className="dropdown-toggle text-muted px-1" href="/chat" role="button" data-toggle="dropdown"  aria-expanded="false">
                                                                         <i className="ri-more-fill"></i>
                                                                     </a>
                                                                     <div className="dropdown-menu dropdown-menu-right">
-                                                                        <a className="dropdown-item" href="#">Action</a>
-                                                                        <a className="dropdown-item" href="#">Another action</a>
+                                                                        <a className="dropdown-item" href="/chat">Action</a>
+                                                                        <a className="dropdown-item" href="/chat">Another action</a>
                                                                         <div className="dropdown-divider"></div>
-                                                                        <a className="dropdown-item" href="#">Delete</a>
+                                                                        <a className="dropdown-item" href="/chat">Delete</a>
                                                                     </div>
                                                                 </li>
                                                             </ul>
@@ -2500,19 +2500,19 @@ export default class Chat extends Component {
                                                         <div className="ml-4">
                                                             <ul className="list-inline mb-0 font-size-18">
                                                                 <li className="list-inline-item">
-                                                                    <a href="#" className="text-muted px-1">
+                                                                    <a href="/chat" className="text-muted px-1">
                                                                         <i className="ri-download-2-line"></i>
                                                                     </a>
                                                                 </li>
                                                                 <li className="list-inline-item dropdown">
-                                                                    <a className="dropdown-toggle text-muted px-1" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                    <a className="dropdown-toggle text-muted px-1" href="/chat" role="button" data-toggle="dropdown"  aria-expanded="false">
                                                                         <i className="ri-more-fill"></i>
                                                                     </a>
                                                                     <div className="dropdown-menu dropdown-menu-right">
-                                                                        <a className="dropdown-item" href="#">Action</a>
-                                                                        <a className="dropdown-item" href="#">Another action</a>
+                                                                        <a className="dropdown-item" href="/chat">Action</a>
+                                                                        <a className="dropdown-item" href="/chat">Another action</a>
                                                                         <div className="dropdown-divider"></div>
-                                                                        <a className="dropdown-item" href="#">Delete</a>
+                                                                        <a className="dropdown-item" href="/chat">Delete</a>
                                                                     </div>
                                                                 </li>
                                                             </ul>
@@ -2537,19 +2537,19 @@ export default class Chat extends Component {
                                                         <div className="ml-4">
                                                             <ul className="list-inline mb-0 font-size-18">
                                                                 <li className="list-inline-item">
-                                                                    <a href="#" className="text-muted px-1">
+                                                                    <a href="/chat" className="text-muted px-1">
                                                                         <i className="ri-download-2-line"></i>
                                                                     </a>
                                                                 </li>
                                                                 <li className="list-inline-item dropdown">
-                                                                    <a className="dropdown-toggle text-muted px-1" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                    <a className="dropdown-toggle text-muted px-1" href="/chat" role="button" data-toggle="dropdown"  aria-expanded="false">
                                                                         <i className="ri-more-fill"></i>
                                                                     </a>
                                                                     <div className="dropdown-menu dropdown-menu-right">
-                                                                        <a className="dropdown-item" href="#">Action</a>
-                                                                        <a className="dropdown-item" href="#">Another action</a>
+                                                                        <a className="dropdown-item" href="/chat">Action</a>
+                                                                        <a className="dropdown-item" href="/chat">Another action</a>
                                                                         <div className="dropdown-divider"></div>
-                                                                        <a className="dropdown-item" href="#">Delete</a>
+                                                                        <a className="dropdown-item" href="/chat">Delete</a>
                                                                     </div>
                                                                 </li>
                                                             </ul>
